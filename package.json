@@ -1,0 +1,19 @@
+{
+  "name": "@jwalsh/newrelic-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "nightwatch": "^0.9.8"
+  },
+  "dependencies": {
+    "newrelic": "^1.30.3"
+  }
+}

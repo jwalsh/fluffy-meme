@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    != newrelic.getBrowserTimingHeader()
+    title Index
+    script.
+      setTimeout(function() { window.location='/' + Math.random();},1000)
+  body
+    h1 Index
